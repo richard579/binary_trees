@@ -32,7 +32,7 @@ size_t tree_size(const binary_tree_t *tree)
  *
  * Return: Pointer to array sorted in descending order
  */
-int heap_to_sorted_array(heap_t *heap, size_t *size)
+int *heap_to_sorted_array(heap_t *heap, size_t *size)
 {
 	int i, *a = NULL;
 
